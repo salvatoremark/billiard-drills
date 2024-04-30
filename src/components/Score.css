@@ -1,0 +1,44 @@
+@import "../base.css";
+
+.Score {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding: 1rem;
+}
+
+.Score label {
+  font-family: "Jura", sans-serif;
+  color: #497adb;
+  display: inline;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.Score .form {
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  border: 1px dotted #ccc;
+  border-radius: 0.5rem;
+  background-color: var(--panel-bgcolor);
+}
+
+.Score .input-group {
+  margin-bottom: 2rem;
+}
+
+.Score .input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.Score .input-group input[type="number"] {
+  width: 4rem;
+  font-size: 3rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.Nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.Nav div {
+  font-size: 1.5rem;
+  text-align: center;
+  background: #497adb;
+  border-top: none;
+  border-right: 1px solid #ddd;
+  color: white;
+  margin: 0;
+  padding: 0.3em;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.Nav div:hover {
+  background: #8aa5dc;
+}
+
+.Nav div:active {
+  background: #999;
+  color: #f8f6f3;
+}
+
+.Nav .active {
+  background-color: #f8f6f3;
+  color: #497adb;
+  font-weight: 700;
+  border-top: 1px solid #497adb;
+  text-transform: uppercase;
+}
+.Nav .active:hover {
+  background-color: #f8f6f3;
+  color: #497adb;
+  font-weight: 700;
+  border-top: 1px solid #497adb;
+}

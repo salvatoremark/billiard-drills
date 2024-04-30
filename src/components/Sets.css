@@ -1,0 +1,31 @@
+@import "../base.css";
+
+.Sets {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.Sets .wrapper {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+.Sets .set-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sets li {
+  display: flex;
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  list-style-type: none;
+}
+
+.Sets li.SetListItem a {
+  text-transform: uppercase;
+  padding-right: 5rem;
+  font-weight: 700;
+}

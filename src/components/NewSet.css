@@ -1,0 +1,155 @@
+@import "../base.css";
+
+.NewSet {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.NewSet .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 3vw;
+  padding-bottom: 10rem;
+}
+
+.NewSet .frame {
+  align-self: flex-start;
+  flex-basis: 55%;
+  flex-grow: 0;
+  max-height: 80vh;
+  max-width: 40rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: nowrap;
+  border-radius: 1rem;
+  background-color: var(--frame-list-bgcolor);
+}
+.NewSet .frame li {
+  text-align: center;
+}
+
+.NewSet .frame-list-column {
+  align-self: flex-start;
+  flex-grow: 1;
+  max-width: 15rem;
+  padding-top: 0;
+}
+
+.NewSet .frame-list-column > div {
+  font-family: "Jura", sans-serif;
+  font-size: 1.2rem;
+  border: 1px dotted #ccc;
+  border-radius: 1rem;
+  color: #fffc06;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.NewSet .category-list {
+  margin-top: 1rem;
+  border: 1px dotted #ccc;
+  border-radius: 1rem;
+  background-color: var(--panel-bgcolor);
+}
+
+.NewSet button.btn-primary {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.NewSet .btn-primary {
+  border: 0;
+}
+.NewSet ul li {
+  color: #000;
+  display: block;
+}
+
+.NewSet ul {
+  text-align: left;
+}
+
+.NewSet li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+.NewSet .item {
+  margin-right: 0.7rem;
+  padding: 0.5rem;
+}
+
+.NewSet .item img {
+  min-width: 12rem;
+}
+
+.NewSet .item-title {
+  color: #497adb;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.NewSet .item-button {
+  background: white;
+  border: 2px solid #497adb;
+  border-radius: 1rem;
+  color: #497adb;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  padding: 0.5rem;
+}
+
+.NewSet .item-button:hover {
+  background: gold;
+  color: #497adb;
+}
+
+.NewSet .item-button.active {
+  background: gold;
+  color: #497adb;
+}
+
+.NewSet .wrapper {
+  width: 100%;
+}
+
+.NewSet .btn-primary {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+}
+
+.NewSet button:hover.btn-primary {
+  color: gold;
+}
+
+.NewSet select {
+  background-color: #497adb;
+  font-size: 1.15rem;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.NewSet select:hover {
+  color: gold;
+}
+
+.NewSet .controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  width: 100vw;
+  border: 0px solid red;
+}
+.SetTitles form ul li {
+  color: black !important;
+  display: block !important;
+}

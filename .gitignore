@@ -1,0 +1,7 @@
+node_modules
+.firebase/
+.firebaserc
+.github/
+dist/
+firebase.json
+public/favicon_io.zip

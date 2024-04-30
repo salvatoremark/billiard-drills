@@ -1,0 +1,48 @@
+@import "../base.css";
+
+.SetDetail {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.SetDetail h2 {
+  font-family: "Jura", sans-serif;
+  color: #497adb;
+  font-size: 4rem;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+.SetDetail h3 {
+  font-family: "Jura", sans-serif;
+  color: #497adb;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
+}
+.SetDetail .text-left {
+  width: 30rem;
+}
+
+.SetDetail .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SetDetail .container {
+  color: #497adb;
+  font-size: 2rem;
+  background: #eee;
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+  padding: 0 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.SetDetail li {
+  list-style-type: none;
+}
+.SetDetail li .title {
+  margin: 1rem;
+}

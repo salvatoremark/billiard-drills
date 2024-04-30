@@ -1,0 +1,54 @@
+@import "../base.css";
+
+.History {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.History h2 + div {
+  font-size: 1.5rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.History h2 {
+  font-size: 4rem;
+}
+
+.History .button-group {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.History .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.History .container {
+  background: #eee;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  padding: 0 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.History li {
+  list-style-type: none;
+}
+.History li .title {
+  font-size: 1.6rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.History li .average {
+  color: #497adb;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.History li .controls {
+  font-size: 1rem;
+  float: right;
+}

@@ -1,0 +1,41 @@
+.Setup {
+  text-align: center;
+  padding-bottom: 500px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.Setup h2 {
+  font-size: 4rem;
+}
+.Setup h3 {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.Setup ul {
+  margin-top: 1rem;
+}
+
+.Setup li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+  margin-left: 0rem;
+  padding-left: 1rem;
+  text-indent: -1.3rem;
+}
+
+.Setup li:before {
+  content: "\0BB \020";
+}
+
+.Setup .text-left {
+  margin: 0;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.Setup .diagram {
+  margin: 3rem 0;
+  width: 90%;
+}

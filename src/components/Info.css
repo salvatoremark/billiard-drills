@@ -1,0 +1,26 @@
+@import "../base.css";
+
+.Info {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.Info h2 {
+  font-size: 4rem;
+}
+.Info h3 {
+  font-size: 3rem;
+}
+
+.Info .appname {
+  color: #497adb;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.Info .bold {
+  color: #497adb;
+  font-weight: 700;
+}

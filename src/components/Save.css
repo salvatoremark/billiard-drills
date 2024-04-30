@@ -1,0 +1,18 @@
+@import "../base.css";
+
+.Save {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.Save h3 {
+  margin: 1rem 0;
+}
+
+.Save h2 + div {
+  margin-bottom: 2rem;
+}
+
+.Save .text-left {
+  width: 27rem;
+}

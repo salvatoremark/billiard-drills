@@ -1,0 +1,43 @@
+@import "../base.css";
+
+.Stats {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.Stats .title {
+  color: #497adb;
+}
+.Stats .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Stats .container {
+  background: #eee;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  padding: 0 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.Stats li {
+  list-style-type: none;
+}
+.Stats li .title {
+  font-size: 1.6rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.Stats li .average {
+  color: #497adb;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.Stats li .controls {
+  font-size: 1rem;
+  float: right;
+}

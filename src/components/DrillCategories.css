@@ -1,0 +1,15 @@
+@import "../base.css";
+
+.DrillCategories {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.DrillCategories li {
+  list-style-type: none;
+  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+}
