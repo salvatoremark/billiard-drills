@@ -8,13 +8,8 @@ export default function Info() {
       <h2>Instructions</h2>
       <p>
         <span className='appname'>Billiard Drills</span> Enhance your pocket
-<<<<<<< HEAD
-        billiard skills with <em>Billiard Drills</em>, a platform designed to
-        help you score and track your progress through structured drills.
-=======
         billiard skills with <em>Billiard Drills</em>, a web app designed to
         help you score and track your progress as you practice.
->>>>>>> 3301cbf (Initial commit)
       </p>
       <p>Let's get started:</p>
       <ol>
