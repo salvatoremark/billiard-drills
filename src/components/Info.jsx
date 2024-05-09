@@ -51,7 +51,7 @@ export default function Info() {
       <p>
         The app is designed to distribute drills into multiple sets to practice
         one set at a time. Depending on your approach, you might decide instead
-        to put all drills into one set. Either way is fine. Drill scorse are
+        to put all drills into one set. Either way is fine. Drill scores are
         independent of their set(s), so deleting a drill or its set won't erase
         past drill scores.
       </p>
