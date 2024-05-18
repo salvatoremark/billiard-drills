@@ -4,7 +4,6 @@ export default function Drill(props) {
   const {
     drillObj,
     isDrillSelected,
-    selectedCategory,
     toggleSelectItem,
     index,
   } = props;
@@ -12,6 +11,8 @@ export default function Drill(props) {
   const isSelected = isDrillSelected(drillObj.id);
   const buttonText = isSelected === true ? "Selected" : "Select this Drill";
   const buttonSelected = isSelected === true ? "active" : "";
+
+
   const button = (
     <div
       className={`item-button ${buttonSelected}`}
