@@ -1,7 +1,7 @@
 export function storageAvailable(type = "localStorage") {
   try {
-    var storage = window[type],
-      x = "__storage_test__";
+    const storage = window[type];
+    const x = "testing_storage";
     storage.setItem(x, x);
     storage.removeItem(x);
     return true;
