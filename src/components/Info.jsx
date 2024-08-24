@@ -46,12 +46,12 @@ export default function Info() {
         <span className='appname'>Billiard Drills</span> prompts you to enter
         the points scored and the number of attempts made. We suggest beginning
         each drill with a predetermined quantity of balls, say ten, and then
-        adding up just the attempts it took to score all ten balls.
+        just keeping track of the number of attempts it took to score all ten balls.
       </p>
       <p>
         The app is designed to distribute drills into multiple sets to practice
         one set at a time. Depending on your approach, you might decide instead
-        to put all drills into one set. Either way is fine. Drill scorse are
+        to put all drills into one set. Either way is fine. Drill scores are
         independent of their set(s), so deleting a drill or its set won't erase
         past drill scores.
       </p>
